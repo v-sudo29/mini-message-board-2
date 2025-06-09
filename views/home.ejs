@@ -19,12 +19,14 @@
         </h3>
         <p>Text: <%= messages[i].text %>
         </p>
-        <p>Date: <% messages[i].added%>
+        <p>Date: <%= messages[i].added %>
         </p>
       </div>
       <br />
       <br />
       <%} %>
+
+        <a href="/new">Create a message</a>
   </div>
 </body>
 
